@@ -23,10 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/poll/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="0.031088082" vertical-offset="0" max-vertical-offset="965">
+            <state line="2" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131210125630_create_votes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131210125630_create_votes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="30" selection-start="143" selection-end="143" vertical-scroll-proportion="0.06066734" vertical-offset="0" max-vertical-offset="989">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131210125559_create_movies.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131210125559_create_movies.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -59,6 +77,7 @@
         <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/poll/index.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20131210125630_create_votes.rb" />
       </list>
     </option>
   </component>
@@ -634,20 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131210125630_create_votes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131210125559_create_movies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.15166835" vertical-offset="0" max-vertical-offset="989">
@@ -713,7 +718,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/poll/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="0.031088082" vertical-offset="0" max-vertical-offset="965">
+        <state line="2" column="8" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131210125559_create_movies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131210125630_create_votes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="143" selection-end="143" vertical-scroll-proportion="0.06066734" vertical-offset="0" max-vertical-offset="989">
           <folding />
         </state>
       </provider>
