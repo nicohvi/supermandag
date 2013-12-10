@@ -1,0 +1,12 @@
+%h1 SUPERADVENTSMANDAG OMG
+
+%section
+  %h3 Detta er filmene:
+
+  %ul
+    -@movies.each do |movie|
+      %li
+        =image_tag(movie.image_url)
+        %h3= movie.title
+        =link_to 'Vote!', movie_votes_path(movie), data: {'movie-id' => movie.id }, class: 'vote'
+        %strong.num-votes= movie.votes.length
