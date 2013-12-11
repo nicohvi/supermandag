@@ -4,6 +4,6 @@ class Movie < ActiveRecord::Base
   scope :by_votes,
         select('*, count(votes.id) AS votes').
             joins(:votes).
-            group('votes.id').
+            group('votes, movies.id').
             order('votes DESC')
 end
