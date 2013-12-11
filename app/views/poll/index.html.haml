@@ -5,8 +5,11 @@
 
   %ul
     -@movies.each do |movie|
-      %li
+      %li.movie
         =image_tag(movie.image_url)
         %h3= movie.title
         =link_to 'Vote!', movie_votes_path(movie), data: {'movie-id' => movie.id }, class: 'vote'
         %strong.num-votes= movie.votes.length
+        %section.voters
+          -movie.votes.each do |vote|
+            %span=vote.username
