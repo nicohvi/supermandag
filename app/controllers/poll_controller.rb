@@ -2,7 +2,7 @@ class PollController < ApplicationController
 
   def index
     redirect_to(login_path) and return false unless cookies[:username]
-    @movies = Movie.all
+    @movies = Movie.by_votes
   end
 
   def login
