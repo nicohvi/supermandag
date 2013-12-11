@@ -32,10 +32,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poll_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="poll_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/poll_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.27300304" vertical-offset="0" max-vertical-offset="989">
+            <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131211101516_add_vote_count_to_movie.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="5" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131211102604_add_vote_counts_to_movies.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131211102604_add_vote_counts_to_movies.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="182" selection-end="182" vertical-scroll-proportion="0.06066734" vertical-offset="0" max-vertical-offset="989">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="53" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -87,10 +114,12 @@
         <option value="$PROJECT_DIR$/app/views/movies/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/movies/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
         <option value="$PROJECT_DIR$/app/models/vote.rb" />
         <option value="$PROJECT_DIR$/app/controllers/poll_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131211102604_add_vote_counts_to_movies.rb" />
       </list>
     </option>
   </component>
@@ -653,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.15166835" vertical-offset="0" max-vertical-offset="989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="22" selection-start="143" selection-end="143" vertical-scroll-proportion="0.07583418" vertical-offset="0" max-vertical-offset="989">
@@ -676,7 +698,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/poll_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.27300304" vertical-offset="0" max-vertical-offset="989">
+        <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="53" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131211102604_add_vote_counts_to_movies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="182" selection-end="182" vertical-scroll-proportion="0.06066734" vertical-offset="0" max-vertical-offset="989">
           <folding />
         </state>
       </provider>
