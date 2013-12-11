@@ -53,7 +53,7 @@
       <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="170" selection-end="170" vertical-scroll-proportion="0.09100101" vertical-offset="0" max-vertical-offset="989">
+            <state line="9" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.13650152" vertical-offset="0" max-vertical-offset="989">
               <folding />
             </state>
           </provider>
@@ -686,7 +686,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="170" selection-end="170" vertical-scroll-proportion="0.09100101" vertical-offset="0" max-vertical-offset="989">
+        <state line="9" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.13650152" vertical-offset="0" max-vertical-offset="989">
           <folding />
         </state>
       </provider>
