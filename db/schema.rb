@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131210125630) do
+ActiveRecord::Schema.define(version: 20131211101516) do
 
   create_table "movies", force: true do |t|
     t.string   "title"
     t.string   "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "number_of_votes"
   end
 
   create_table "votes", force: true do |t|

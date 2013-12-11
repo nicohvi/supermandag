@@ -32,28 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poll_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="poll_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/poll_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="70" selection-start="215" selection-end="215" vertical-scroll-proportion="0.09100101" vertical-offset="0" max-vertical-offset="989">
+            <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.27300304" vertical-offset="0" max-vertical-offset="989">
               <folding />
             </state>
           </provider>
@@ -95,7 +77,6 @@
         <option value="$PROJECT_DIR$/app/controllers/movie_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/vote_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/vote.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20131210125630_create_votes.rb" />
         <option value="$PROJECT_DIR$/app/views/poll/index.html.haml" />
@@ -106,8 +87,10 @@
         <option value="$PROJECT_DIR$/app/views/movies/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/movies/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/poll_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
+        <option value="$PROJECT_DIR$/app/models/vote.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/poll_controller.rb" />
       </list>
     </option>
   </component>
@@ -594,13 +577,6 @@
         <state line="4" column="26" selection-start="100" selection-end="100" vertical-scroll-proportion="0.062176164" vertical-offset="0" max-vertical-offset="965" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/vote.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.07583418" vertical-offset="0" max-vertical-offset="989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="49" selection-start="273" selection-end="273" vertical-scroll-proportion="0.12133468" vertical-offset="0" max-vertical-offset="989" />
@@ -663,6 +639,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/vote.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="52" selection-start="84" selection-end="84" vertical-scroll-proportion="0.015166835" vertical-offset="0" max-vertical-offset="989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="50" selection-end="50" vertical-scroll-proportion="0.015166835" vertical-offset="0" max-vertical-offset="989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131211101516_add_vote_count_to_movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.15166835" vertical-offset="0" max-vertical-offset="989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="143" selection-end="143" vertical-scroll-proportion="0.07583418" vertical-offset="0" max-vertical-offset="989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -670,23 +674,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/poll_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="215" selection-end="215" vertical-scroll-proportion="0.09100101" vertical-offset="0" max-vertical-offset="989">
+        <state line="18" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.27300304" vertical-offset="0" max-vertical-offset="989">
           <folding />
         </state>
       </provider>
