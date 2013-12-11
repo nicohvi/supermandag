@@ -1,7 +1,7 @@
 Supermandag::Application.routes.draw do
   root to: 'poll#index'
 
-  resources :movies, only: [:new, :create] do
+  resources :movies, except: [:index, :show, :delete] do
     resources :votes, only: :create
   end
 
