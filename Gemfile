@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'haml'
 
+# Fuck deg, Severin.
+gem 'omniauth-google-oauth2'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

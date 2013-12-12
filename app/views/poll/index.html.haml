@@ -1,7 +1,7 @@
 %h1 SUPERADVENTSMANDAG OMG
 
 %section
-  %h3= "Halla #{cookies[:username]}, Detta er filmene:"
+  %h3= "Halla #{session[:username]}, Detta er filmene:"
 
   %ul
     -@movies.each do |movie|

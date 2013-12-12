@@ -5,6 +5,10 @@ Supermandag::Application.routes.draw do
     resources :votes, only: :create
   end
 
-  get 'login', to: 'poll#login', as: 'login'
-  post 'login', to: 'poll#new_session', as: 'create_session'
+  get 'auth/google_oauth2', as: 'oauth'
+
+  get '/auth/google_oauth2/callback/', to: 'sessions#omniauth_create', as: 'oauth_callback'
+
+  get '/logout', to: 'sessions#destroy', as: 'logout'
+
 end

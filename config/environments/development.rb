@@ -26,4 +26,7 @@ Supermandag::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  ENV['CLIENT_ID'] = '737912388555-gr1nkb9gvgho0djkue11tfhkvv07kcal.apps.googleusercontent.com'
+  ENV['GOOGLE_SECRET'] = 'OQcKvMa303BfVH6Tb9kaueSC'
 end

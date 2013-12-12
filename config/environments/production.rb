@@ -77,4 +77,8 @@ Supermandag::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Google Oauth
+  ENV['CLIENT_ID'] = '737912388555-gr1nkb9gvgho0djkue11tfhkvv07kcal.apps.googleusercontent.com'
+  ENV['GOOGLE_SECRET'] = 'OQcKvMa303BfVH6Tb9kaueSC'
 end
