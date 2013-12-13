@@ -3,7 +3,8 @@ class PollController < ApplicationController
   before_action :index, :authenticate
 
   def index
-    @movies = Movie.all.order(number_of_votes: :desc)
+    movies = Movie.all
+    @movies = movies.sort_by &:score
   end
 
   private
